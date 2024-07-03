@@ -114,4 +114,40 @@ a{
     font-size: var(--p-font-size);
     color: var(--background-color);
 }
+.logo-types-details-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-1-container img 
+{
+    height: 48px;
+    width: 124.11px;
+}
+.logo-2-container img 
+{
+    height: 48px;
+    width: 124.11px;
+}
+.logo-3-container img 
+{
+    height: 48px;
+    width: 124.11px;
+}
+.logo-4-container img 
+{
+    height: 48px;
+    width: 124.11px;
+}
+.logo-5-container img 
+{
+    height: 48px;
+    width: 124.11px;
+}
+.logo-6-container img 
+{
+    height: 48px;
+    width: 124.11px;
+}
+
 
