@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -111,3 +112,118 @@ a{
 }
 
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #B9FF66;
+    --secondary-color: #191A23;
+    --background-color: #F3F3F3;
+    --h1-font-size: 3.75rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.88rem;
+    --h4-font-size: 1.25rem;
+    --p-font-size: 1.13rem;
+    --primary-font: "Space Grotesk", sans-serif;
+    --border-radius: 14px;
+   
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 68px;
+    margin-top: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+nav ul{
+    display: flex;
+    margin-top: 25px;
+  
+}
+header .logo-container img{
+    width: 219.54px;
+    height: 36px;
+    position: relative;
+    margin: 15px 15px 15px 15px;
+  
+}
+nav ul li{
+    margin: 0px 25px 0px 0px;
+    list-style: none;
+  
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+.nav-container{
+   margin-left: 30%;
+   height: 68px;
+   
+   
+}
+.menu-call-to-action-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    width: 231px;
+    height: 35px;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius);
+
+}
+.call-to-action-btn a{
+    margin-top: 25px;
+    position: relative;
+    top: 10px;
+    left: 60px;
+
+}
+.landing-page-details-container{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.details-image-section-container img{
+    width: 600.46px;
+    height: 515px;
+}
+.details-section-title-container{
+    width: 531px;
+    height: 231px;
+}
+.details-section-paragraph-container{
+    width: 498px;
+    margin-top: 25px;
+}
+.details-section-paragraph-container p{
+    font-size: var(--p-font-size);
+    font-family: var(--primary-font);
+}
+.details-section-title-container h1{
+    font-size: var(--h1-font-size);
+    font-family: var(--primary-font);
+}
+.details-section-call-to-action-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 68px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--secondary-color);
+    margin-top: 25px;
+   
+}
+
+
+>>>>>>> 40e43fec91e88403074338c43d46a9807c6cae3a
