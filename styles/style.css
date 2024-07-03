@@ -151,6 +151,37 @@ a{
 }
 .service-section{
     margin-top: 110px;
+    margin-left: 50px;
 }
+.service-introduction-container{
+    display: flex;
+    align-items: center;
+
+}
+.service-section-title{
+    font-family: var(--primary-font);
+    font-size: var(--h2-font-size);
+}
+.service-section-paragraph-container{
+    display: flex;
+    width: 580px;
+    position: relative;
+    left: 50px;
+
+}
+.service-section-paragraph{
+    font-family: var(--primary-font);
+    font-size: var(--p-font-size);
+}
+.service-section-title-container{
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 5px 5px 5px 5px;
+}
+.services-container
+{
+    margin-top: 110px;
+}
+
 
 
