@@ -13,8 +13,19 @@
     --p-font-size: 1.13rem;
     --primary-font: "Space Grotesk", sans-serif;
     --border-radius: 14px;
-   
-
+    --service-container-border-radius: 45px;
+}
+h3{
+font-size: var(--h3-font-size);
+font-family: var(--primary-font);
+}
+h1{
+    font-size: var(--h1-font-size);
+    font-family: var(--primary-font);
+}
+p{
+    font-size: var(--p-font-size);
+    font-family: var(--primary-font);
 }
 
 header{
@@ -90,14 +101,7 @@ a{
     width: 498px;
     margin-top: 25px;
 }
-.details-section-paragraph-container p{
-    font-size: var(--p-font-size);
-    font-family: var(--primary-font);
-}
-.details-section-title-container h1{
-    font-size: var(--h1-font-size);
-    font-family: var(--primary-font);
-}
+
 .details-section-call-to-action-btn{
     display: flex;
     justify-content: center;
@@ -178,10 +182,65 @@ a{
     border-radius: var(--border-radius);
     padding: 5px 5px 5px 5px;
 }
-.services-container
+
+.services-containers
 {
     margin-top: 110px;
 }
+/*SEO */
+.service-container{
+    display: flex;
+    margin-top: 40px;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--service-container-border-radius);
+    box-shadow: 0px 5px var(--secondary-color);
+    width: 600px;  
+}
 
+.first-content-container{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.second-content-container{
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 50px ;
+    width: 600px;
+    height: 170px;
+}
+.container-title{
+    margin-bottom: 90px;
+}
+.container-title h3{
+    background-color: var(--primary-color);
+    border-radius: 7px
+}
+.container-learn-more-btn{
+    display: flex;
+    align-items: center;   
+}
+.container-learn-more-btn-title{
+    margin-left: 15px;
+}
+.service-first-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.PPC-service-container{
+    background-color: var(--primary-color);
+}
+.ppc-container-title h3{
+    background-color: var(--background-color);
+}
+.service-second-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.service-third-row{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
