@@ -1,11 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 :root{
     --primary-color: #B9FF66;
     --secondary-color: #191A23;
-    --background-color: #F3F3F3;
+    --grey-color: #F3F3F3;
+    --background-color: #FFFFFF;
     --h1-font-size: 3.75rem;
     --h2-font-size: 2.5rem;
     --h3-font-size: 1.88rem;
@@ -14,6 +12,13 @@
     --primary-font: "Space Grotesk", sans-serif;
     --border-radius: 14px;
     --service-container-border-radius: 45px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--background-color);
 }
 h3{
 font-size: var(--h3-font-size);
@@ -187,7 +192,7 @@ a{
 {
     margin-top: 110px;
 }
-/*SEO */
+/*Service section styles */
 .service-container{
     display: flex;
     margin-top: 40px;
@@ -212,6 +217,7 @@ a{
 }
 .container-title{
     margin-bottom: 90px;
+    width: 221px;
 }
 .container-title h3{
     background-color: var(--primary-color);
@@ -220,19 +226,49 @@ a{
 .container-learn-more-btn{
     display: flex;
     align-items: center;   
+    width: 164px;
 }
 .container-learn-more-btn-title{
     margin-left: 15px;
 }
-.service-first-row{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 .PPC-service-container{
     background-color: var(--primary-color);
 }
+.SEO-service-container{
+    background-color: var(--grey-color);
+}
+.social-media-service-container{
+    background-color: var(--secondary-color);
+}
+.email-marketing-service-container{
+    background-color: var(--grey-color);
+}
+.content-creation-service-container{
+    background-color: var(--primary-color);
+}
+.analytics-service-container{
+    background-color: var(--secondary-color);
+}
+.analytics-container-learn-more-btn-title p{
+    color: var(--background-color);
+}
+.content-creation-container-title h3{
+    background-color: var(--background-color);
+}
+.social-media-container-learn-more-btn-title p{
+    color: var(--background-color);
+}
+.social-media-container-title h3{
+    background-color: var(--background-color);
+}
 .ppc-container-title h3{
     background-color: var(--background-color);
+}
+
+.service-first-row{
+    display: flex;
+    justify-content: space-evenly;
 }
 .service-second-row{
     display: flex;
@@ -242,5 +278,10 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+.service-fourth-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*End of service styles*/
 
 
