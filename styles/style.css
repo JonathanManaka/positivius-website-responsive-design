@@ -10,8 +10,8 @@
     --h4-font-size: 1.25rem;
     --p-font-size: 1.13rem;
     --primary-font: "Space Grotesk", sans-serif;
-    --border-radius: 14px;
-    --service-container-border-radius: 45px;
+    --border-radius1: 14px;
+    --border-radius2: 45px;
 }
 *{
     margin: 0;
@@ -29,8 +29,9 @@ h1{
     font-family: var(--primary-font);
 }
 p{
-    font-size: var(--p-font-size);
     font-family: var(--primary-font);
+    font-size: var(--p-font-size);
+    color: var(--secondary-color);
 }
 
 header{
@@ -77,7 +78,7 @@ a{
     width: 231px;
     height: 35px;
     border: 1px solid var(--secondary-color);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius1);
 
 }
 .call-to-action-btn a{
@@ -107,18 +108,18 @@ a{
     margin-top: 25px;
 }
 
-.details-section-call-to-action-btn{
+.call-to-action-btn{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 264px;
     height: 68px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius1);
     border: 1px solid var(--secondary-color);
     margin-top: 25px;
     background-color: var(--secondary-color);
 }
-.details-section-call-to-action-btn p{
+.call-to-action-btn p{
     font-family: var(--primary-font);
     font-size: var(--p-font-size);
     color: var(--background-color);
@@ -184,7 +185,7 @@ a{
 }
 .service-section-title-container{
     background-color: var(--primary-color);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius1);
     padding: 5px 5px 5px 5px;
 }
 
@@ -197,7 +198,7 @@ a{
     display: flex;
     margin-top: 40px;
     border: 1px solid var(--secondary-color);
-    border-radius: var(--service-container-border-radius);
+    border-radius: var(--border-radius2);
     box-shadow: 0px 5px var(--secondary-color);
     width: 600px;  
 }
@@ -283,5 +284,35 @@ a{
     justify-content: space-evenly;
 }
 /*End of service styles*/
+.call-to-action-container{
+    display: flex;
+    align-items: center;
+    background-color: var(--grey-color);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: var(--border-radius2);
+    margin-top: 143.5px;
+    height: 347px;
+ 
+}
+.call-to-action-container-details{
+    width: 500px;
+    height: 227px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-right: 186px;
+}
+
+.call-to-action-container-prg{
+    margin-top: 60px;
+}
+.call-to-action-container-btn{
+    margin-top: 26px;
+}
+.call-to-action-container-image{
+    width: 494px;
+    height:394.27px;
+}
 
 
