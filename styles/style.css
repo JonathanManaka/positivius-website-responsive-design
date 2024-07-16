@@ -9,6 +9,7 @@
     --h3-font-size: 1.88rem;
     --h4-font-size: 1.25rem;
     --p-font-size: 1.13rem;
+    --title-font-size: 3.75rem;
     --primary-font: "Space Grotesk", sans-serif;
     --border-radius1: 14px;
     --border-radius2: 45px;
@@ -424,6 +425,7 @@ a{
 }
 .step-by-step-guide-section{
     margin-top: 140px;
+    width: 1234px;
 }
 .step-by-step-guide-title{
     display: flex;
@@ -437,4 +439,46 @@ a{
 }
 .step-by-step-guide-title p{
     width: 292px;
+}
+.step-number p{
+    font-size: var(--title-font-size);
+}
+.step-one-title{
+    display: flex;
+    align-items: center;
+    width: 1117px;
+    margin-bottom: 40px;
+}
+.step-one-consultation{
+    margin-top: 80px;
+}
+.step-container{
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius2);
+    padding-left: 60px;
+    padding-top: 41px;
+    box-shadow: 0px 5px var(--secondary-color);
+    
+}
+.step-paragraph{
+    width: 1114px;
+    margin-bottom: 41px;
+}
+.step-separator{
+    height: 1px;
+    background-color: var(--secondary-color);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+}
+.step-title h3{
+    margin-left: 25px;
+    color: var(--secondary-color);
+}
+.step-title{
+    width: 612px;
+}
+.step-icon{
+    margin-left: 375px;
 }
