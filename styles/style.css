@@ -46,7 +46,6 @@ p{
 header{
     display: flex;
     align-items: center;
-    
     height: 68px;
     margin-top: 15px;
     padding-top: 1px;
@@ -262,15 +261,18 @@ a{
 }
 .SEO-service-container{
     background-color: var(--grey-color);
+    margin-right: 40px;
 }
 .social-media-service-container{
     background-color: var(--secondary-color);
+    margin-right: 40px;
 }
 .email-marketing-service-container{
     background-color: var(--grey-color);
 }
 .content-creation-service-container{
     background-color: var(--primary-color);
+    margin-right: 40px;
 }
 .analytics-service-container{
     background-color: var(--secondary-color);
