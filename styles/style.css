@@ -19,13 +19,22 @@
 }
 body{
     background-color: var(--background-color);
-}
-h3{
-font-size: var(--h3-font-size);
-font-family: var(--primary-font);
+    
 }
 h1{
     font-size: var(--h1-font-size);
+    font-family: var(--primary-font);
+}
+h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--primary-font);
+}
+h3{
+    font-size: var(--h3-font-size);
+    font-family: var(--primary-font);
+    }
+h4{
+    font-size: var(--h4-font-size);
     font-family: var(--primary-font);
 }
 p{
@@ -37,6 +46,7 @@ p{
 header{
     display: flex;
     align-items: center;
+    
     height: 68px;
     margin-top: 15px;
     padding-top: 1px;
@@ -65,10 +75,7 @@ a{
     font-family: var(--primary-font);
 }
 .nav-container{
-   margin-left: 30%;
    height: 68px;
-   
-   
 }
 .menu-call-to-action-btn{
     display: flex;
@@ -92,9 +99,9 @@ a{
     display: flex;
     align-items: flex-start;
     margin-top: 50px;
-    margin-left: 50px;
     margin-right: 50px;
 }
+
 .details-image-section-container img{
     width: 600.46px;
     height: 515px;
@@ -126,33 +133,47 @@ a{
 }
 .logo-types-details-container{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 .logo-1-container img 
 {
     height: 48px;
     width: 124.11px;
 }
+.logo-2-container{
+    margin-left: 95.9px;
+}
 .logo-2-container img 
 {
     height: 48px;
     width: 124.11px;
+    
+}
+.logo-3-container{
+    margin-left: 95.9px;
 }
 .logo-3-container img 
 {
     height: 48px;
     width: 124.11px;
 }
+.logo-4-container{
+    margin-left: 95.9px;
+}
 .logo-4-container img 
 {
     height: 48px;
     width: 124.11px;
 }
+.logo-5-container{
+    margin-left: 95.9px;
+}
 .logo-5-container img 
 {
     height: 48px;
     width: 124.11px;
+}
+.logo-6-container{
+    margin-left: 95.9px;
 }
 .logo-6-container img 
 {
@@ -161,12 +182,10 @@ a{
 }
 .service-section{
     margin-top: 110px;
-    margin-left: 50px;
 }
 .service-introduction-container{
     display: flex;
     align-items: center;
-
 }
 .service-section-title{
     font-family: var(--primary-font);
@@ -192,6 +211,11 @@ a{
 .services-containers
 {
     margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    
 }
 /*Service section styles */
 .service-container{
@@ -200,7 +224,7 @@ a{
     border: 1px solid var(--secondary-color);
     border-radius: var(--border-radius2);
     box-shadow: 0px 5px var(--secondary-color);
-    width: 600px;  
+    width: 600px;
 }
 
 .first-content-container{
@@ -288,7 +312,7 @@ a{
     display: flex;
     align-items: center;
     background-color: var(--grey-color);
-    margin-left: 50px;
+    
     margin-right: 50px;
     border-radius: var(--border-radius2);
     margin-top: 143.5px;
@@ -313,6 +337,21 @@ a{
 .call-to-action-container-image{
     width: 494px;
     height:394.27px;
+}
+.case-study-section{
+    margin-top: 110px;
+}
+.case-study-section-title{
+    display: flex;
+    align-items: center;
+}
+.case-study-section-paragraph{
+    width: 580px;
+    height: 46px;
+}
+.case-study-section-h2{
+    width: 265px;
+    height: 51px;
 }
 
 
