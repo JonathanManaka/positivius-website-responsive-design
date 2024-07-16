@@ -369,5 +369,57 @@ a{
 .case-study-section-paragraph{
     margin-left: 40px;
 }
+.case-study-container{
+    margin-top: 80px;
+    width: 1234px;
+    height: 326px;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius2);
+    display: flex;
 
+}
+.use-case-p-white{
+    color: var(--background-color);
+}
+.use-case-p-green{
+    color: var(--primary-color);
+}
+.usecase-sub-container{
+    width: 286px;
+    height: 163px;
+}
+.usecase-learn-more-btn{
+   display: flex; 
+   margin-top: 20px;
+}
+.learn-more-btn-icon{
+    margin-left: 15px;
+}
+.first-use-case{
+    margin-left: 60px;
+    margin-top: 70px;
+    margin-bottom: 93px;
+    margin-right: 64px;
+
+}
+.second-use-case{
+    margin-top: 70px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 70px;
+
+}
+.third-use-case{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 60px;
+    margin-left: 64px;
+}
+.separator-use-case{
+    background-color: var(--background-color);
+    width: 2px;
+    height: 186px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
 
