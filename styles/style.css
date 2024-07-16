@@ -19,6 +19,7 @@
 }
 body{
     background-color: var(--background-color);
+    font-family: var(--primary-font);
     
 }
 h1{
@@ -51,6 +52,9 @@ header{
     padding-top: 1px;
     padding-bottom: 1px;
 }
+main{
+    margin: 100px 70px 100px 70px;
+}
 nav ul{
     display: flex;
     margin-top: 25px;
@@ -75,6 +79,7 @@ a{
 }
 .nav-container{
    height: 68px;
+   margin-left: 209.49px;
 }
 .menu-call-to-action-btn{
     display: flex;
