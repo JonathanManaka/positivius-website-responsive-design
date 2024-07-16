@@ -422,4 +422,19 @@ a{
     margin-top: 70px;
     margin-bottom: 70px;
 }
-
+.step-by-step-guide-section{
+    margin-top: 140px;
+}
+.step-by-step-guide-title{
+    display: flex;
+    align-items: center;
+}
+.step-by-step-guide-title h2{
+    margin-right: 40px;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    padding: 5px;
+}
+.step-by-step-guide-title p{
+    width: 292px;
+}
