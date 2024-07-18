@@ -481,3 +481,20 @@ a{
 .step-icon{
     margin-left: 375px;
 }
+.team-section{
+    margin-top: 140px;
+}
+.team-title-container{
+    display: flex;
+    align-items: center;
+}
+.team-title{
+    margin-right: 40px;
+}
+.team-title h2{
+    background-color: var(--primary-color);
+    border-radius: 7px;
+}
+.team-title-paragraph{
+    width: 473px;
+}
