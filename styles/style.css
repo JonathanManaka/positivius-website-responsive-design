@@ -498,3 +498,32 @@ a{
 .team-title-paragraph{
     width: 473px;
 }
+.team-member-container{
+    width: 387px;
+    height: 331px;
+    border: 1px solid var(--secondary-color);
+    border-radius: var(--border-radius2);
+    box-shadow: 0px 5px var(--secondary-color);
+}
+.teams-container{
+    margin-top: 80px;
+}
+.first-row-team{
+    display: flex;
+}
+.second-row-team{
+    display: flex;
+    margin-top: 40px;
+}
+.team-member-one-container{
+    margin-right: 40px;
+}
+.team-member-two-container{
+    margin-right: 40px;
+}
+.team-member-four-container{
+    margin-right: 40px;
+}
+.team-member-five-container{
+    margin-right: 40px;
+}
