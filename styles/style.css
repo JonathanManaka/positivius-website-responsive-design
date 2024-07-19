@@ -1,4 +1,9 @@
-
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
 :root{
     --primary-color: #B9FF66;
     --secondary-color: #191A23;
@@ -580,3 +585,124 @@ a{
     margin-right: 78px;
 
 }
+.testimonial-section{
+    margin-top: 100px;
+}.testimonial-title-container{
+    display: flex;
+    align-items: center;
+}
+.testimonial-title-p{
+    margin-left: 80px;
+    width: 473px;
+}
+.testimonial-title h2{
+    background-color: var(--primary-color);
+}
+.testimonials-container{
+    height: 500px;
+    width: 1240px;
+    background-color: var(--secondary-color);
+    margin-top: 80px;
+    border-radius: var(--border-radius2);
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    top: 25px;
+    margin-left: 84px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+   
+    position: relative;
+    left: 250px;
+    top: 84px;
+    
+  }
+ 
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .dot-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 150px
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .contact-us-section{
+    margin-top: 140px;
+  }
