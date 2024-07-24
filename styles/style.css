@@ -26,6 +26,7 @@ html {
 body{
     background-color: var(--background-color);
     font-family: var(--primary-font);
+    overflow-x: hidden;
     
 }
 h1{
@@ -689,12 +690,12 @@ a{
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
+.active, .dot:hover {
     background-color: #717171;
   }
   
   /* Fading animation */
-  .fade {
+.fade {
     animation-name: fade;
     animation-duration: 1.5s;
   }
@@ -703,6 +704,121 @@ a{
     from {opacity: .4}
     to {opacity: 1}
   }
-  .contact-us-section{
+.contact-us-section{
     margin-top: 140px;
   }
+.contact-us-title-container{
+    display: flex;
+    align-items: center;
+  }
+.contact-us-title-p{
+    margin-left: 40px;
+    width: 323px;
+  }
+.contact-us-title h2{
+    background-color: var(--primary-color);
+  }
+.contact-us-form-container{
+    display: flex;
+    height: 773px;
+    
+    background-color: var(--grey-color);
+    border-radius: var(--border-radius2);
+    margin-top: 80px;
+  }
+.form-container{
+    position: relative;
+    top: 60px;
+    width: 556px;
+    height: 633px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+ 
+  }
+.form-image-container{
+    position: relative;
+    left: 165px;
+    margin-top: 62px;
+  }
+.form-action-radios{
+    display: flex;
+    align-items: center;
+  }
+.inline {
+    width: unset;
+    margin: 0em 1em 0 0;
+    vertical-align: middle;
+  }
+.label-container{
+    display: flex;
+  
+  }
+.label-container2{
+    margin-left: 35px;
+}
+.text-fields-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+}
+input[type="radio"]:checked{
+    background-color: var(--primary-color);
+}
+.name-container input{
+    width: 556px;
+    height: 56px;
+    border-radius: var(--border-radius1);
+    padding-left: 15px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.name-container{
+    margin-top: 5px;
+}
+
+.email-container input{
+    width: 556px;
+    height: 56px;
+    border-radius: var(--border-radius1);
+    padding-left: 15px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+.email-container{
+    margin-top: 5px;
+}
+.message-container textarea{
+    width: 556px;
+    height: 190px;
+    border-radius: var(--border-radius1);
+    padding-left: 15px;
+    padding-top: 18px;
+}
+.message-container{
+    margin-top: 5px;
+}
+.email-textfield-title{
+    margin-top: 25px;
+}
+.message-textarea-title{
+    margin-top: 25px;
+}
+.send-message-btn-contaier button{
+    width: 556px;
+    height: 68px;
+    border-radius: var(--border-radius1);
+    background-color: var(--secondary-color);
+    margin-top: 40px;
+}
+.send-message-btn-contaier button{
+    color:var(--background-color)
+}
+
